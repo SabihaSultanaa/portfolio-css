@@ -1,0 +1,234 @@
+
+/* .timg{@apply bg-[url('../app/Aboutme.png')] bg-center bg-no-repeat bg-contain h-[500px] w-[400px] absolute top-[60px]  left-[800px]} */
+
+.item{
+
+
+     margin-left: 40px; 
+margin-top: 3px;
+width: 200px;}
+
+.bulb{
+
+
+
+
+
+
+     background-image: url('../app/Best_Web_Design_Company___Marketing_Services___Designixer_Web_Design_Agency_-_Google_Chrome_10_24_2024_9_16_34_AM-removebg-preview.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 380px;
+     width: 380px;
+     position: absolute;
+     right: 0px;bottom: 50px;
+     left: 900px;
+
+}
+/* li{@apply xxs:leading-[30px] 
+
+
+
+} */
+.java{
+margin-left: 50px;
+margin-top: 15px;}
+
+.js{
+   background-image: url("../app/js.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 60px;
+   width: 60px;
+   position: absolute;
+
+}
+
+/* .type{@apply  sm:mt-[10px] sm:ml-[50px] xxs:ml-[55px]
+
+
+} */
+   .ts{
+      background-image: url("../app/ts.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 30px;
+      width: 30px;
+      position: absolute;
+      left: 55px;
+      top: 140px;
+     }
+
+     /* .ht{@apply md:ml-[50px] md:mt-[15px] sm:mt-[20px] sm:ml-[60px] xxs:ml-[55px]} */
+     .html{
+         
+     
+     
+          background-image: url("../app/html.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: 40px;
+          width: 40px;
+          position: absolute;
+          top: 170px;
+          left: 50px;
+     }
+
+          /* .next{@apply lg:ml-[45px] lg:mt-[18px] xxs:ml-[60px] xxs:mt-[20px] } */
+          .nextjs{
+          
+          
+          
+          
+          
+               background-image: url("../app/next.webp");
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: contain;
+               height: 40px;  
+               width: 40px;
+               position: absolute;
+               top: 100px;
+          }
+
+               /* .re{@apply lg:ml-[45px] lg:mt-[12px] md:mt-[18px] md:ml-[50px] xxs:ml-[60px] xxs:mt-[10px]} */
+          .react{
+          
+          
+          
+          
+              background-image: url("../app/react.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              height: 35px;  
+              width: 35px;
+              position: absolute;
+              top: 140px;
+          
+          }
+          
+          
+
+               .no{
+               margin-left: 45px;}
+               .node{
+
+
+                
+               
+                background-image: url("../app/node.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 35px;  
+                width: 35px;
+                position: absolute;
+                top: 180px;
+               
+               }
+                     
+
+                    /* .cs{@apply lg:ml-[40px]  lg:mt-[18px] xxs:ml-[60px] xxs:mt-[20px]} */
+                    .css{
+                    
+                    
+                    
+                         background-image: url("../app/css.png");
+                         background-position: center;
+                         background-repeat: no-repeat;
+                         background-size: contain;
+                         height: 65px;  
+                         width: 65px;
+                         position: absolute;
+                         left: 510px;
+                    }       
+          
+                         /* .t{@apply lg:ml-[45px] lg:mt-[12px] xxs:ml-[60px] } */
+                    .tail{
+                   
+                         
+                         
+                          background-image: url("../app/tail.png");
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          background-size: contain;
+                          height: 30px;  
+                          width: 30px;
+                          position: absolute;
+                          left: 530px;
+                          top: 150px;
+                         }
+          
+                         /* .sh{@apply lg:ml-[45px] lg:mt-[12px]  xxs:ml-[60px] } */
+                         .shad{
+                              
+                              
+                              
+                              
+                               background-image: url("../app/shad.png");
+                               background-position: center;
+                               background-repeat: no-repeat;
+                               background-size: contain;
+                               height: 35px;  
+                               width: 35px;
+                               position: absolute;
+                               top: 190px;
+                               left: 520px;
+                              } 
+
+                              .vcg{margin-left: 40px;}
+                              .git{
+                              
+                              
+                                   background-image: url("../app/git.png");
+                                   background-position: center;
+                                   background-repeat: no-repeat;
+                                   background-size: contain;
+                                   height: 35px;  
+                                   width: 35px;
+                                   position: absolute;
+                                   top: 100px;
+                              }
+                    
+                                   .code{
+                                   
+                                   
+                                   
+                                   margin-left: 45px;
+                                   margin-top: 12px;}
+                                
+                              .vs{
+
+
+                                   background-image: url("../app/vs.png");
+                                   background-position: center;
+                                   background-repeat: no-repeat;
+                                   background-size: contain;
+                                   height: 85px;  
+                                   width: 85px;
+                                   position: absolute;
+                                   top:120px ;
+                                   left: 730px;
+                                  }
+                    
+                                   .r{ margin-left: 45px;
+                                   margin-top: 12px;}
+
+
+                                   .res{     
+                                   background-image: url("../app/res.png");
+                                   background-position: center;
+                                   background-repeat: no-repeat; 
+                                   background-size: contain;
+                                   height: 35px;  
+                                   width: 35px;
+                                   position: absolute;
+                                   top: 190px;
+                                   }
+                                    
+                                        

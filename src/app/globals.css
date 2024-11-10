@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .bubble{@apply  bg-gradient-to-b from-[#5c9ee4] to-[#053efa] absolute rounded-full filter blur-[20px] overflow-hidden;}
+.bubble1{@apply w-[60px] h-[60px] md:w-[100px] md:h-[100px] left-0 ;animation:move-left-right 5s infinite ; }
+.bubble2{@apply w-[50px] h-[50px]  md:w-[100px] md:h-[100px] right-0;animation:move-right-left 5s infinite ; }
+.bubble3{@apply w-[150px] h-[150px]  md:w-[250px] md:h-[250px] left-0 top-0 ;animation:move-corner-center 5s infinite ; }
+.bubble4{@apply w-[50px] h-[50px]  md:w-[200px] md:h-[200px] left-1/2 bottom-0 ;animation:move-up-down 5s infinite ; }
+.bubble5{@apply w-[70px] h-[70px]  md:w-[150px] md:h-[150px] right-10  bottom-52 ;animation:zigzag 5s infinite ; }
+.bubble6{@apply w-[65px] h-[65px]  md:w-[100px] md:h-[100px] left-60 ;animation:zigzag 5s infinite ; }
+
+@keyframes move-left-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes move-right-left {
+  0% {
+    transform: translateX(-50%);
+  }
+  50% {
+      transform: translate(-800%);
+    }
+    100% {
+      transform: translate(0, 0);}
+}
+
+@keyframes move-corner-center {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(50vw, 50vh);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes move-up-down {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-500px) translateX(300px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+@keyframes zigzag {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+
+  
+  50% {
+    transform: translateX(-300px) translateY(900px);
+  }
+ 
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+
+} */
+
+.typed-cursor {
+  display: none;
+}
+
+   
+.carousel {
+ overflow:hidden;
+  width: 10000px; 
+}
+
+  
+  .cards-container {display: flex }
+ 
+
+
+/* .cimg{@apply bg-red-600 xxs:w-[10px] xxs:h-[10px] xxs:absolute xxs:top-[0px] xxs:bg-contain xxs:bg-center xxs:bg-no-repeat}  */
+.cimg1{height:400px; width: 200px ; background-position: center;background-repeat: no-repeat;background-size: contain;
+  background-image: url(../app/Best_Web_Design_Company___Marketing_Services___Designixer_Web_Design_Agency_-_Google_Chrome_10_24_2024_9_12_03_AM-removebg-preview.png);}
+.cimg2{height:400px; width: 200px ; background-position: center;background-repeat: no-repeat;background-size: contain;
+
+  background-image: url(../app/Best_Web_Design_Company___Marketing_Services___Designixer_Web_Design_Agency_-_Google_Chrome_10_24_2024_9_12_10_AM-removebg-preview.png);}
+.cimg3{height:400px; width: 200px ; background-position: center;background-repeat: no-repeat;background-size: contain; margin-top: 30px;
+  background-image: url(../app/Best_Web_Design_Company___Marketing_Services___Designixer_Web_Design_Agency_-_Google_Chrome_10_24_2024_9_16_34_AM-removebg-preview.png);}
+
+.cimg4{background-position: center;background-repeat: no-repeat;background-size: contain;position: absolute; margin-top: 0px; height: 350px; width: 200px; bottom: 40px; left: 10px;
+  background-image: url(../app/Best_Web_Design_Company___Marketing_Services___Designixer_Web_Design_Agency_-_Google_Chrome_10_24_2024_9_42_23_AM-removebg-preview.png);}
+.cimg{margin-top: 0px; position: absolute; 
+  bottom: 30px;  
+  left: 10px;   }
+.ctext1{
+color: white; font-size: 22px; width: 100px; margin-top: 270px; margin-left: 40px; font-family: sans-serif; font-weight: light;}
+
+.cards-container {
+animation: slideCards 100s infinite linear;
+}
+
+@keyframes slideCards {
+0% {
+  transform: translateX(0);
+}
+100% {
+  transform: translateX(-100%);
+}
+}
+
+/* In your global CSS file */
+.card {
+
+  width: 300px;
+  height: 360px;
+  margin: 10px;
+  border:1px;
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+
+
+}
+
+
+@media (max-width: 767px) {
+  .cimg1{background-image: url(../app/Best_Web_Design_Company___Marketing_Services___Designixer_Web_Design_Agency_-_Google_Chrome_10_24_2024_9_12_03_AM-removebg-preview.png);background-position: center center;
+    background-repeat: no-repeat;background-size: contain ;height: 150px;width: 150px;}
+    .cimg2{background-image: url(../app/Best_Web_Design_Company___Marketing_Services___Designixer_Web_Design_Agency_-_Google_Chrome_10_24_2024_9_12_10_AM-removebg-preview.png);background-position: center center;background-repeat: no-repeat;background-size: contain ;height: 150px;width: 150px;}
+.cimg3{background-image: url(../app/Best_Web_Design_Company___Marketing_Services___Designixer_Web_Design_Agency_-_Google_Chrome_10_24_2024_9_16_34_AM-removebg-preview.png);background-position: center center;background-repeat: no-repeat;background-size: contain ;height: 150px;width: 150px;}
+.cimg4{background-image: url(../app/Best_Web_Design_Company___Marketing_Services___Designixer_Web_Design_Agency_-_Google_Chrome_10_24_2024_9_42_23_AM-removebg-preview.png);background-position: center center;background-repeat: no-repeat;background-size: contain ;height: 150px;width: 150px;
+}
+.ctext1{color: white;font-size: 20px;width: 100px;margin-top: 150px;font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;line-height: normal;}
+.cimg{margin-top: 0px;bottom: 68px; position: absolute;left:auto}
+.card{width:160px; height: 220px;}
+.carousel{width: 9000px;}
+.cimg3{top: 10px;}
+.cimg4{top: 10px;}
+
+
+}
+
+
+
+
+
+
+.contact-img { 
+  background-position: center;  background-repeat: no-repeat;background-size: contain; 
+  height: 680px; width: 680px; background-image: url('../app/contact.png');
+}
+.watsapp { 
+  background-image: url('../app/watsapp.png'); background-position: center;
+    background-repeat: no-repeat;background-size: contain;height: 40px; width: 40px; 
+    margin-top: 0px;
+  margin-left: 150px;
+}
+.linkedin {
+   background-image: url('../app/linked.webp');  background-position: center;background-size: contain;height: 70px;  width: 70px;
+   margin-top: 0px; position: absolute; top: 5px; right: 100px;
+  }
+
+.github {  background-image: url('../app/github.png'); background-position: center; background-repeat: no-repeat; background-size: contain;
+  height: 40px; width: 40px; margin-top: 0px; position: absolute; right: 200px;
+}
+.p1{
+
+
+  background-image: url('../app/hotel.png');
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 590px;
+  height: 300px;
+
+}
+.p2{
+
+  background-image: url('../app/tech.png');
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 590px;
+  height: 300px;
+}
+.flow{ 
+
+  border-radius: 10px;
+  background-image: url('../app/dp2.png');
+  position: absolute;
+  top: 100px;
+  right: 190px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 250px;
+  height: 300px;
+}
+
+.p3{
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../app/edu.png');
+  border-radius: 10px;
+  width: 590px;
+  height: 300px;
+}
+.p4{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../app/jwel.png');
+  border-radius: 10px;
+  width: 590px;
+  height: 300px;
+}
+.p5{
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../app/resume.png');
+  border-radius: 10px;
+  width: 590px;
+  height: 300px;
+
+}
+.p6{
+
+
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../app/uri.png');
+  border-radius: 10px;
+  width: 590px;
+  height: 300px;
+  }
+
+
+
+
+
+
